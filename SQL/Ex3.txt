@@ -1,0 +1,3 @@
+select username, MAX(salary) as salary from salary
+INNER JOIN user ON salary.user_id =  user.id  
+where salary != (SELECT MAX(salary) from salary);

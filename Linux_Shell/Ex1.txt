@@ -1,0 +1,2 @@
+lsof -i :80 for port 80
+lsof -i :443 for port 443

@@ -1,0 +1,3 @@
+SELECT LastName from user
+group by LastName 
+HAVING COUNT(LastName) > 1

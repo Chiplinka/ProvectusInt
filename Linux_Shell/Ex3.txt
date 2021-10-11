@@ -1,0 +1,4 @@
+I will list the process in the background with command "jobs" and then will write "kill %{number in the list jobs gave}" 
+
+$ jobs
+$ kill %1 
